@@ -1,5 +1,4 @@
 package by.IT.constants;
-
 public class DbConstants {
     public static final String ID_COL = "id";
     public static final String LOGIN_COL = "login";
