@@ -26,7 +26,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
-           <!-- удоляем  из ломбок   одну строку кода-->
+            <!-- ••− −•• −−− •−•• •−•− • −− −−•• •−•• −−− −− −••• −−− −•− •− −•• −−•• −• •−• •− −•• −−− −•− −•− −−− −•• •−  -->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -34,7 +34,7 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
-            <!-- удоляем  из сервлет одноу строку кода-->
+            <!--  ••− −•• −−− •−•• •−•− • − −−•• ••• ••−•• •−• •−− •−•• • − •− •− −•• −−•• −• •−• •− −•• −−− −•− −•− −−− −•• •−  -->
         </dependency>
 
 
