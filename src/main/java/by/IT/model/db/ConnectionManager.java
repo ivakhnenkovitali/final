@@ -1,10 +1,12 @@
-package by.IT.model.entities.db;
+package by.IT.model.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Objects;
 import java.util.Properties;
+
+
 
 public class ConnectionManager {
     private static final String DRIVER = "driver";

@@ -1,6 +1,5 @@
-package by.IT.model.entities.db;
+package by.IT.model.db;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
