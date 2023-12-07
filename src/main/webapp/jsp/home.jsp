@@ -13,7 +13,7 @@
 
 <h2>User Info:</h2>
 <p>login: ${user.login}</p>
-<p>login: ${user.namen}</p>
+<p>login: ${user.name}</p>
 <p>login: ${user.email}</p>
 </body>
 </html>

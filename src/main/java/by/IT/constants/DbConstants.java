@@ -8,5 +8,6 @@ public class DbConstants {
     public static final String EMAIL_COL = "email";
 
     public static final String SELECT_USER = "SELECT id, name, email FROM user WHERE login = ? AND password = ?";
+    public static final String INSERT_USER =" INSERT INTO user (login, name, email, password) VALUES (?,?,?,?)";
 
 }

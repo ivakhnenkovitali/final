@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Data
-
 public class User {
     private int id;
     @NonNull

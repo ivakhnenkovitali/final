@@ -24,26 +24,34 @@ public class UserDao {
 
     public User getUser(String login, String password) {
         try (Connection cn = ConnectionManager.getConnection();
-             PreparedStatement ps = cn.prepareStatement(SELECT_USER)){
+             PreparedStatement ps = cn.prepareStatement(SELECT_USER)) {
             ps.setString(1, login);
             ps.setString(2, password);
 
+
+
+
+
             ResultSet rs = ps.executeQuery();
-            if (rs.next()){
+            if (rs.next()) {
                 int id = rs.getInt(ID_COL);
                 String name = rs.getString(NAME_COL);
                 String email = rs.getString(EMAIL_COL);
-                 return new User(id, login, name, email);
+                return new User(id, login, name, email);
 
             }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
     }
 
-    public boolean addUser(User user, String password) {
-        return false;
+
+    private boolean isAccessible(String login, Connection cn) {
+
+        }
+
+
     }
+
 }
