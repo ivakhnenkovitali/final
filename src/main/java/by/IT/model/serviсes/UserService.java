@@ -17,7 +17,7 @@ public class UserService {
 
     }
 
-    public User getUser(String login, String password) {
+    public boolean getUser(String login, String password) {
         return dao.getUser(login, password);
 
     }

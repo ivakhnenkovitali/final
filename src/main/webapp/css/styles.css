@@ -38,8 +38,6 @@ nav ul li:hover{
 }
 
 
-
-
 .error{
     color: red;
 }
@@ -52,11 +50,23 @@ nav ul li:hover{
     background-color: gray;
 }
 
-
 .nav-li{
     float: right;
 }
 .nav-li.float-left{
     float:left;
-}
 
+}
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-li a:hover:not(.active){
+    background-color: dimgray;
+}
+.active{
+    background-color: green;
+}
