@@ -40,8 +40,23 @@ nav ul li:hover{
 
 
 
-
-
 .error{
     color: red;
 }
+
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+
+.nav-li{
+    float: right;
+}
+.nav-li.float-left{
+    float:left;
+}
+
