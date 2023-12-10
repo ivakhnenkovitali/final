@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+<jsp:include page="<%= JspConstants.MENU_JSP%>"/>
+<img src="default-image" src="<%= JspConstants.BACKGROUND_IMAGE%>" alt="pizza">
 <biv class="form-box">
     <h2>Registration</h2>
     <form method="post" action="<%= ApplicationConstants.REGISTRATION_CONTROLLER %>">

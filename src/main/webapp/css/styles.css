@@ -70,3 +70,7 @@ nav ul li:hover{
 .active{
     background-color: green;
 }
+.default-image{
+    width: 100%;
+    opacity: 0.5;  <!-- прозначность -->
+}
