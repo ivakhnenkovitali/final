@@ -72,5 +72,5 @@ nav ul li:hover{
 }
 .default-image{
     width: 100%;
-    opacity: 0.5;  <!-- прозначность -->
+    opacity: 0.5;  <!-- ambiguity -->
 }
