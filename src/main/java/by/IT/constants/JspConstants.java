@@ -1,5 +1,4 @@
 package by.IT.constants;
-
 public class JspConstants {
     public static final String LOGIN_PARAM = "login";
     public static final String NAME_PARAM = "name";
